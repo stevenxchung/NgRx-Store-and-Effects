@@ -18,7 +18,32 @@ Notes from Todd Motto's NgRx Course
 
 ## State Management Library
 * A state management library will allow us to:
-    * Model our application state
+    * Model our app state
     * Update state
     * Read state values
     * Monitor/observe changes to state
+
+## Redux: Three Principles
+* There are three key principles when it comes to redux:
+    1. Single source of truth
+    2. State is read-only
+    3. Pure functions update state
+
+### Redux: Single Source of Truth
+* Why have a single source of truth?
+    * One state tree inside Store
+    * Predictability, maintainability
+    * Universal app server side rendering (SSR)
+    * Testing and debugging
+
+### Redux: State is read-only
+* Why is application state read-only?
+    * Derive properties from state
+    * Dispatch actions to change state
+    * Immutable update patterns
+
+### Redux: Pure functions update state
+* Why have pure functions update state?
+    * Pure functions are reducers
+    * Reducers respond to action types
+    * Reducers return new state
