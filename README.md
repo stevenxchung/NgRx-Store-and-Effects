@@ -57,6 +57,40 @@ Notes from Todd Motto's NgRx Course
     * One-way dataflow
 
 ### String State Tree
-* The single state tree consists of:
+* What does a single state tree consists of?
     * Plain JavaScript Object
-    * Composed by reducers
+    * Composed by reducers (the only way to update a state tree is via reducer)
+
+### Actions
+* What are actions in Redux?
+    * Two properties:
+        * **type**: string, describeds event
+        *  **payload**: optional data
+    * Dispatch actions to reducers
+
+### Reducers
+* What are reducers?
+    * Pure functions
+    * Given dispatched action
+        * Responds to action.type
+        * Access to action.payload
+        * Composes new state
+        * Returns new state
+
+### Store
+* What is the function of a Store?
+    * State container
+    * Components interact with the Store
+        * Subscribe to slices of State
+        * Dispatch Actions to the Store
+    * Store invokes Reducers with previous State and Action
+    * Reducers compose new State
+    * Store is updated, notifies subscribers
+
+### One-way Dataflow
+* What do we mean by one-way dataflow?
+    * Data flows one way from start to finish:
+        1. First the component dispatches an action to the Store
+        2. Then the action is sent to the reducer by the Store
+        3. The reducer composes a new state within the Store
+        4. The state then renders data back to the component
