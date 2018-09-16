@@ -47,3 +47,16 @@ Notes from Todd Motto's NgRx Course
     * Pure functions are reducers
     * Reducers respond to action types
     * Reducers return new state
+
+## Redux Core Concepts
+* There are several of core concepts of Redux:
+    * Single state tree
+    * Actions
+    * Reducers
+    * Store
+    * One-way dataflow
+
+### Redux Core Concepts: String State Tree
+* The single state tree consists of:
+    * Plain JavaScript Object
+    * Composed by reducers
