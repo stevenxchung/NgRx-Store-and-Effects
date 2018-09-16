@@ -56,7 +56,7 @@ Notes from Todd Motto's NgRx Course
     * Store
     * One-way dataflow
 
-### Redux Core Concepts: String State Tree
+### String State Tree
 * The single state tree consists of:
     * Plain JavaScript Object
     * Composed by reducers
