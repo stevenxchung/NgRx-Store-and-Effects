@@ -117,3 +117,24 @@ Notes from Todd Motto's NgRx Course
 * What are some things we cannot mutate in JavaScript?
     * Strings
     * Numbers
+
+## What is NgRx Store?
+* NgRx Store is a Redux inspired reactive state management library
+
+### NgRx Store
+* What are some components of NgRx Store?
+    * Based on Redux
+    * Written with Observables
+    * Made for Angular
+
+### Benefits of NgRx Store
+* What are some benefits of using NgRx Store?
+    * Single source of truth
+    * Testability
+    * Performance benefits
+        * ChangeDetectionStrategy.OnPush
+        * Immutable @Inputs
+        * Object reference checks are fast
+    * Root and feature module support
+        * Eagerly loaded modules
+        * Lazily loaded modules
