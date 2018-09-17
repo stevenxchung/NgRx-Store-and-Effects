@@ -138,3 +138,14 @@ Notes from Todd Motto's NgRx Course
     * Root and feature module support
         * Eagerly loaded modules
         * Lazily loaded modules
+
+## Reactive Angular
+* What is Reactive Angular in terms of a component architecture?
+    * Container
+        * Aware of Store
+        * Dispatches Actions
+        * Reads data from Store
+    * Presentational
+        * Not Award of Store
+        * Invokes callbacks via @Output
+        * Read data from @Inputs
