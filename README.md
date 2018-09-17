@@ -94,3 +94,26 @@ Notes from Todd Motto's NgRx Course
         2. Then the action is sent to the reducer by the Store
         3. The reducer composes a new state within the Store
         4. The state then renders data back to the component
+
+## Understanding Immutability
+* What does immutability mean?
+    * An immutable object is an object whose state cannot be modified after creation
+
+### Why Immutable?
+* There are several of reasons why we want our data to be immutable
+    * Predictability
+    * Explicit state changes
+    * Performance (Change Detection)
+    * Mutation Tracking
+    * Undo state changes
+
+### Mutability in JavaScript
+* What are some things we can mutate in JavaScript?
+    * Functions
+    * Objects
+    * Arrays
+
+### Immutability in JavaScript
+* What are some things we cannot mutate in JavaScript?
+    * Strings
+    * Numbers
