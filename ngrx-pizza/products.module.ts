@@ -1,9 +1,9 @@
-// imports above
+// Imports above
 
 import { StoreModule } from '@ngrx/store'; // Add to router via StoreModule.forFeature()
 import { reducers } from './store';
 
-// components, containers, services, and routes below
+// Components, containers, services, and routes below
 
 @NgModule({
   imports: [
